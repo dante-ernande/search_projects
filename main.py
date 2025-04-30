@@ -15,6 +15,8 @@ from consult import Consulta
 
 import qdarktheme
 
+# descripton
+
 resume = "📝 O aplicativo é uma ferramenta para consulta de projetos armazenados em um banco de dados MySQL,\n" \
 "utilizando PyMySQL para comunicação com o banco. Ele carrega configurações a partir de um arquivo \n" \
 "config.ini, estabelece conexão com o banco e executa consultas baseadas em um termo de pesquisa fornecido pelo usuário.\n" \
