@@ -3,20 +3,16 @@
 import sys
 import os
 import time
-import random
 import logging
-from PyQt6 import QtCore, QtWidgets
+from PyQt6 import QtCore
 from PyQt6.QtGui import QIcon, QPixmap
 from PyQt6.QtWidgets import *
 from PyQt6.QtWidgets import QHeaderView
 
-# from cache import files
 import cache
 from consult import Consulta
 
 import qdarktheme
-
-# descripton
 
 resume = "📝 O aplicativo é uma ferramenta para consulta de projetos armazenados em um banco de dados MySQL,\n" \
 "utilizando PyMySQL para comunicação com o banco. Ele carrega configurações a partir de um arquivo \n" \
