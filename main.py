@@ -10,7 +10,8 @@ from PyQt6.QtGui import QIcon, QPixmap
 from PyQt6.QtWidgets import *
 from PyQt6.QtWidgets import QHeaderView
 
-from cache import files
+# from cache import files
+import cache
 from consult import Consulta
 
 import qdarktheme
@@ -65,7 +66,7 @@ class Ui_Form(QMainWindow):
         self.lineEdit = QLineEdit()
         self.lineEdit.setPlaceholderText("Pesquisar...")
         self.lineEdit.setClearButtonEnabled(True)
-        self.lineEdit.setCompleter(QCompleter(files))
+        self.lineEdit.setCompleter(QCompleter(cache.return_list_projects()))
         self.lineEdit.returnPressed.connect(self.onPressed)
 
         self.logo = QLabel()

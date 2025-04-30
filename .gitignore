@@ -1,1 +1,3 @@
 config.ini
+cache.json
+__pycache__
