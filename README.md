@@ -4,4 +4,4 @@ Uma interface gráfica (GUI) para procurar projetos antigos no banco de dados
 
 ## Demonstração
 
-![Demonstração do Painel](./images/Screenhot_6.png)
+![Demonstração do Painel](./images/Screenshot_6.png)
